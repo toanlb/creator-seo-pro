@@ -169,11 +169,7 @@ A: Không, tất cả phân tích trong giai đoạn 1 được thực hiện c�
 Tài liệu đầy đủ có sẵn tại [trang tài liệu](#).
 
 ### Hỗ trợ kỹ thuật
-
-- [Diễn đàn hỗ trợ](#)
-- [Ticket hỗ trợ](#)
-- Email: support@example.com
-
+- Email: toan@zplus.vn
 ## Đóng góp
 
 ### Báo cáo lỗi
@@ -196,9 +192,8 @@ Plugin này được cấp phép theo [GPL v2 hoặc cao hơn](http://www.gnu.or
 
 ## Liên hệ
 
-- Website: [example.com](#)
-- Email: info@example.com
-- Twitter: [@seo_advisor](#)
+- Website: [zin100.vn](#)
+- Email: toan@zplus.vn
 
 ---
 
