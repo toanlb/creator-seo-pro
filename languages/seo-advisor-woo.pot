@@ -1,0 +1,802 @@
+# Copyright (C) 2025 Your Name
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Advisor & Content Generator 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/seo-advisor-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-12T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: seo-advisor-woo\n"
+
+#. Plugin Name of the plugin
+msgid "SEO Advisor & Content Generator"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://example.com/seo-advisor-woo"
+msgstr ""
+
+#. Description of the plugin
+msgid "A comprehensive WordPress plugin designed to help website owners and WooCommerce administrators optimize their content according to the latest Google SEO standards."
+msgstr ""
+
+#. Author of the plugin
+msgid "Your Name"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://example.com"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:77
+#: admin/class-seo-advisor-admin.php:78
+msgid "SEO Advisor"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:89
+#: admin/class-seo-advisor-admin.php:90
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:100
+#: admin/class-seo-advisor-admin.php:101
+msgid "Settings"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:111
+#: admin/class-seo-advisor-admin.php:112
+#: admin/class-seo-advisor-admin.php:126
+msgid "Content Generator"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:128
+msgid "The Content Generator feature will be available in the upcoming update. Stay tuned!"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:147
+msgid "SEO Focus Keyword"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:149
+msgid "Enter the main keyword you want to rank for with this product."
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:160
+msgid "SEO Secondary Keywords"
+msgstr ""
+
+#: admin/class-seo-advisor-admin.php:162
+msgid "Enter secondary keywords separated by commas."
+msgstr ""
+
+#: admin/partials/admin-display.php:47
+msgid "Version:"
+msgstr ""
+
+#: admin/partials/admin-display.php:55
+msgid "SEO Overview"
+msgstr ""
+
+#: admin/partials/admin-display.php:62
+msgid "Analyzed Content"
+msgstr ""
+
+#: admin/partials/admin-display.php:74
+msgid "Average SEO Score"
+msgstr ""
+
+#: admin/partials/admin-display.php:92
+msgid "Content with Issues"
+msgstr ""
+
+#: admin/partials/admin-display.php:102
+msgid "Recent Content"
+msgstr ""
+
+#: admin/partials/admin-display.php:107
+msgid "Title"
+msgstr ""
+
+#: admin/partials/admin-display.php:108
+msgid "Type"
+msgstr ""
+
+#: admin/partials/admin-display.php:109
+msgid "SEO Score"
+msgstr ""
+
+#: admin/partials/admin-display.php:110
+msgid "Last Updated"
+msgstr ""
+
+#: admin/partials/admin-display.php:134
+msgid "ago"
+msgstr ""
+
+#: admin/partials/admin-display.php:142
+msgid "No content has been analyzed yet."
+msgstr ""
+
+#: admin/partials/admin-display.php:150
+msgid "SEO Tips"
+msgstr ""
+
+#: admin/partials/admin-display.php:157
+msgid "Use Clear, Descriptive Titles"
+msgstr ""
+
+#: admin/partials/admin-display.php:158
+msgid "Your page title is one of the most important on-page SEO elements. Make it descriptive, include your focus keyword near the beginning, and keep it under 60 characters."
+msgstr ""
+
+#: admin/partials/admin-display.php:168
+msgid "Optimize Images"
+msgstr ""
+
+#: admin/partials/admin-display.php:169
+msgid "Always add descriptive alt text to your images that includes your target keywords where appropriate. This helps both SEO and accessibility."
+msgstr ""
+
+#: admin/partials/admin-display.php:179
+msgid "Use Proper Heading Structure"
+msgstr ""
+
+#: admin/partials/admin-display.php:180
+msgid "Organize your content with a clear heading structure (H2, H3, etc.). Include keywords in your headings and ensure there's only one H1 tag per page."
+msgstr ""
+
+#: admin/partials/admin-display.php:196
+msgid "Coming Soon: AI-Powered Content Generator"
+msgstr ""
+
+#: admin/partials/admin-display.php:197
+msgid "In the upcoming update, you'll be able to generate SEO-optimized content with the help of AI. Create engaging titles, meta descriptions, and even full content with just a few clicks."
+msgstr ""
+
+#: admin/partials/metabox-post.php:14
+#: admin/partials/metabox-product.php:15
+msgid "Keywords"
+msgstr ""
+
+#: admin/partials/metabox-post.php:15
+#: admin/partials/metabox-product.php:16
+msgid "Analysis"
+msgstr ""
+
+#: admin/partials/metabox-post.php:39
+#: admin/partials/metabox-product.php:41
+msgid "Focus Keyword"
+msgstr ""
+
+#: admin/partials/metabox-post.php:41
+msgid "Enter the main keyword you want to rank for with this content."
+msgstr ""
+
+#: admin/partials/metabox-post.php:45
+#: admin/partials/metabox-product.php:47
+msgid "Secondary Keywords"
+msgstr ""
+
+#: admin/partials/metabox-post.php:47
+#: admin/partials/metabox-product.php:49
+msgid "Enter secondary keywords separated by commas."
+msgstr ""
+
+#: admin/partials/metabox-post.php:51
+msgid "Analyze Content"
+msgstr ""
+
+#: admin/partials/metabox-post.php:56
+#: admin/partials/metabox-product.php:58
+msgid "Last analyzed:"
+msgstr ""
+
+#: admin/partials/metabox-post.php:58
+#: admin/partials/metabox-product.php:60
+msgid "ago"
+msgstr ""
+
+#: admin/partials/metabox-post.php:87
+#: admin/partials/metabox-product.php:90
+msgid "Critical Issues"
+msgstr ""
+
+#: admin/partials/metabox-post.php:114
+#: admin/partials/metabox-product.php:117
+msgid "No critical issues found."
+msgstr ""
+
+#: admin/partials/metabox-post.php:123
+#: admin/partials/metabox-product.php:126
+msgid "Improvements"
+msgstr ""
+
+#: admin/partials/metabox-post.php:150
+#: admin/partials/metabox-product.php:153
+msgid "No improvements needed."
+msgstr ""
+
+#: admin/partials/metabox-post.php:159
+#: admin/partials/metabox-product.php:162
+msgid "Good Aspects"
+msgstr ""
+
+#: admin/partials/metabox-post.php:186
+msgid "No good aspects found yet. Improve your content to see positive results."
+msgstr ""
+
+#: admin/partials/metabox-post.php:197
+#: admin/partials/metabox-product.php:200
+msgid "No analysis data available. Click \"Analyze Content\" to generate SEO recommendations."
+msgstr ""
+
+#: admin/partials/metabox-post.php:201
+#: admin/partials/metabox-product.php:204
+msgid "No analysis data available. Click \"Analyze Content\" to generate SEO recommendations."
+msgstr ""
+
+#: admin/partials/metabox-post.php:210
+msgid "Coming Soon: AI Content Generator"
+msgstr ""
+
+#: admin/partials/metabox-post.php:211
+msgid "Generate SEO-optimized content with AI assistance."
+msgstr ""
+
+#: admin/partials/metabox-product.php:17
+msgid "Product SEO"
+msgstr ""
+
+#: admin/partials/metabox-product.php:43
+msgid "Enter the main keyword you want to rank for with this product."
+msgstr ""
+
+#: admin/partials/metabox-product.php:53
+msgid "Analyze Product"
+msgstr ""
+
+#: admin/partials/metabox-product.php:90
+msgid "Critical Product Issues"
+msgstr ""
+
+#: admin/partials/metabox-product.php:117
+msgid "No critical product issues found."
+msgstr ""
+
+#: admin/partials/metabox-product.php:126
+msgid "Product Improvements"
+msgstr ""
+
+#: admin/partials/metabox-product.php:153
+msgid "No product improvements needed."
+msgstr ""
+
+#: admin/partials/metabox-product.php:162
+msgid "Good Product Aspects"
+msgstr ""
+
+#: admin/partials/metabox-product.php:189
+msgid "No good product aspects found yet. Improve your product data to see positive results."
+msgstr ""
+
+#: admin/partials/metabox-product.php:197
+msgid "WooCommerce SEO Tips"
+msgstr ""
+
+#: admin/partials/metabox-product.php:199
+msgid "Use unique product descriptions:"
+msgstr ""
+
+#: admin/partials/metabox-product.php:199
+msgid "Avoid using manufacturer descriptions. Write unique, detailed content that highlights features and benefits."
+msgstr ""
+
+#: admin/partials/metabox-product.php:202
+msgid "Include product specifications:"
+msgstr ""
+
+#: admin/partials/metabox-product.php:202
+msgid "Add detailed specifications using product attributes to improve search visibility for specific queries."
+msgstr ""
+
+#: admin/partials/metabox-product.php:205
+msgid "Optimize product images:"
+msgstr ""
+
+#: admin/partials/metabox-product.php:205
+msgid "Use high-quality images with descriptive file names and alt text that include your keywords."
+msgstr ""
+
+#: admin/partials/metabox-product.php:211
+msgid "No product analysis data available. Click \"Analyze Product\" to generate product-specific SEO recommendations."
+msgstr ""
+
+#: admin/partials/metabox-product.php:215
+msgid "No analysis data available. Click \"Analyze Product\" to generate SEO recommendations."
+msgstr ""
+
+#: admin/partials/metabox-product.php:223
+msgid "Coming Soon: AI Product Description Generator"
+msgstr ""
+
+#: admin/partials/metabox-product.php:224
+msgid "Generate SEO-optimized product descriptions, titles, and features with AI assistance."
+msgstr ""
+
+#: admin/settings/settings-page.php:14
+msgid "General"
+msgstr ""
+
+#: admin/settings/settings-page.php:15
+msgid "Analysis"
+msgstr ""
+
+#: admin/settings/settings-page.php:16
+msgid "AI Settings"
+msgstr ""
+
+#: includes/class-seo-advisor-activator.php:146
+msgid "Invalid post ID"
+msgstr ""
+
+#: includes/class-seo-advisor-metabox.php:34
+msgid "SEO Advisor Analysis"
+msgstr ""
+
+#: includes/class-seo-advisor-metabox.php:49
+msgid "SEO Advisor Product Analysis"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:146
+msgid "Title Length"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:148
+msgid "Your title is too short. Try to make it at least 30 characters long."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:154
+msgid "Your title is too long. Keep it under 60 characters for optimal display in search results."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:160
+msgid "Your title has a good length."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:169
+msgid "Title Keyword"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:171
+msgid "Your title contains the focus keyword \"%s\"."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:177
+msgid "Your title does not contain the focus keyword \"%s\"."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:196
+msgid "URL Keyword"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:198
+msgid "Your URL contains the focus keyword."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:204
+msgid "Your URL does not contain the focus keyword."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:235
+msgid "Meta Description Length"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:237
+msgid "Your meta description is too short. Try to make it at least 120 characters long."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:243
+msgid "Your meta description is too long. Keep it under 160 characters to avoid truncation in search results."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:249
+msgid "Your meta description has a good length."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:258
+msgid "Meta Description Keyword"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:260
+msgid "Your meta description contains the focus keyword."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:266
+msgid "Your meta description does not contain the focus keyword."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:291
+msgid "Content Length"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:293
+msgid "Your content is too short (%d words). Try to write at least 300 words for better SEO."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:299
+msgid "Your content is a bit short (%d words). Consider expanding it to at least 600 words for better SEO."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:305
+msgid "Your content length is good (%d words)."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:318
+msgid "Keyword Density"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:320
+msgid "Your keyword density is too low (%.2f%%). Try to use the focus keyword more often."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:326
+msgid "Your keyword density is too high (%.2f%%). This might be seen as keyword stuffing."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:332
+msgid "Your keyword density is good (%.2f%%)."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:345
+msgid "Heading Structure"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:347
+msgid "Your content does not contain any H2 or H3 headings. Add some headings to structure your content."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:353
+msgid "Your content does not contain any H2 headings. Consider adding some for better content structure."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:359
+msgid "Your content has a good heading structure (%d H2 tags, %d H3 tags)."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:378
+msgid "Keyword in Headings"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:380
+msgid "Your headings contain the focus keyword. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:386
+msgid "Your headings do not contain the focus keyword. Try to add it to at least one heading."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:399
+msgid "Internal Links"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:401
+msgid "Your content does not contain any internal links. Add some to improve your site structure."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:407
+msgid "Your content has only %d internal links. For long content, consider adding more internal links."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:413
+msgid "Your content has %d internal links. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:426
+msgid "External Links"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:428
+msgid "Your content does not contain any external links. Consider adding some to authoritative sources."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:434
+msgid "Your content has %d external links."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:452
+msgid "Paragraph Length"
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:454
+msgid "%d paragraphs are too long. Try to keep paragraphs under 150 words for better readability."
+msgstr ""
+
+#: includes/class-seo-advisor-post-analyzer.php:460
+msgid "Your paragraphs have a good length for easy reading."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:60
+msgid "Invalid product ID"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:145
+msgid "Short Description"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:147
+msgid "Your product does not have a short description. Add a concise, compelling short description to improve conversions."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:153
+msgid "Your product short description is too brief. Try to make it at least 50 characters."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:159
+msgid "Your product has a good short description."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:171
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:173
+msgid "Your product does not have any attributes. Adding attributes can improve SEO and help customers find your product."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:179
+msgid "Your product has %d attributes. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:192
+msgid "Product Categories"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:194
+msgid "Your product is not assigned to any category. Assign it to at least one relevant category."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:200
+msgid "Your product is assigned to too many categories. Try to limit it to 1-3 most relevant categories."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:206
+msgid "Your product is assigned to %d categories. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:219
+msgid "Product Tags"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:221
+msgid "Your product does not have any tags. Adding relevant tags can improve discoverability."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:227
+msgid "Your product has too many tags. Try to limit it to 5-10 most relevant tags."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:233
+msgid "Your product has %d tags. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:247
+msgid "Product Images"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:249
+msgid "Your product does not have a main image. Add a high-quality main product image."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:255
+msgid "Your product only has a main image but no gallery images. Add multiple product images to improve conversions."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:261
+msgid "Your product has a main image and %d gallery images. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:274
+msgid "Product Reviews"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:276
+msgid "Your product does not have any reviews. Reviews can improve trust and SEO."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:282
+msgid "Your product has %d reviews. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:295
+msgid "Product Schema"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:297
+msgid "Your product has product schema markup. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:303
+msgid "No product schema detected. Consider adding structured data for rich snippets in search results."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:315
+msgid "Product Price"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:317
+msgid "Your product does not have a price set. Adding a price is essential for e-commerce SEO."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:323
+msgid "Your product has a price set. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:336
+msgid "Related Products"
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:338
+msgid "Your product does not have any related products. Having related products can improve internal linking and user experience."
+msgstr ""
+
+#: includes/class-seo-advisor-product-analyzer.php:344
+msgid "Your product has %d related products. Good job!"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:82
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:91
+msgid "Analysis Settings"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:100
+msgid "AI Settings"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:110
+msgid "Post Types to Analyze"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:119
+msgid "Auto Analyze on Save"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:130
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:141
+msgid "Remove Data on Uninstall"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:150
+msgid "Analysis Strictness"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:159
+msgid "Analyze Meta Tags"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:168
+msgid "Analyze Content"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:177
+msgid "Analyze Images"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:186
+msgid "Analyze Technical SEO"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:195
+msgid "Default Focus Keyword"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:204
+msgid "AI API Key"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:213
+msgid "AI Provider"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:223
+msgid "Configure the general settings for SEO Advisor."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:232
+msgid "Configure how content is analyzed for SEO optimization."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:241
+msgid "Configure the AI settings for content generation (Coming in Phase 2)."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:242
+msgid "AI content generation features will be available in the upcoming update."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:289
+msgid "Select which post types should be analyzed for SEO."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:305
+msgid "Yes"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:306
+msgid "No"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:308
+msgid "Automatically analyze content when saving."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:325
+msgid "Enable WooCommerce product analysis features."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:342
+msgid "Remove all plugin data when uninstalling."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:360
+msgid "Low"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:361
+msgid "Medium"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:362
+msgid "High"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:364
+msgid "Set how strict the analysis should be."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:381
+msgid "Analyze meta tags like title, meta description, and URL."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:398
+msgid "Analyze content for length, readability, keyword usage, and structure."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:415
+msgid "Analyze images for alt text, file names, and other SEO factors."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:432
+msgid "Analyze technical SEO factors like schema markup, canonicals, etc."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:447
+msgid "Default focus keyword to use when none is specified."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:462
+msgid "Enter your AI provider API key (Coming in Phase 2)."
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:478
+msgid "OpenAI (GPT)"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:479
+msgid "Anthropic (Claude)"
+msgstr ""
+
+#: includes/class-seo-advisor-settings.php:481
+msgid "Select your AI provider for content generation (Coming in Phase 2)."
+msgstr ""

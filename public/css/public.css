@@ -1,0 +1,60 @@
+/**
+ * All of the public-facing CSS for the plugin
+ *
+ * @since      1.0.0
+ * @package    SEO_Advisor
+ */
+
+.seo-advisor-public {
+    /* Currently empty as public CSS is minimal */
+    /* Will be used for future public-facing features */
+}
+
+/* Styles for schema structured data visualization (if implemented) */
+.seo-advisor-schema-info {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.seo-advisor-schema-info h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seo-advisor-schema-info ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.seo-advisor-schema-info li {
+    margin-bottom: 5px;
+}
+
+/* Styles for SEO score display (if implemented in frontend) */
+.seo-advisor-score-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.seo-advisor-score-poor {
+    background-color: #d63638;
+}
+
+.seo-advisor-score-good {
+    background-color: #2271b1;
+}
+
+.seo-advisor-score-excellent {
+    background-color: #00a32a;
+}

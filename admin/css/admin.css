@@ -1,0 +1,368 @@
+/**
+ * Admin styles for SEO Advisor & Content Generator.
+ *
+ * @since      1.0.0
+ * @package    SEO_Advisor
+ */
+
+/* Dashboard Styles */
+.seo-advisor-dashboard-widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.seo-advisor-widget {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.seo-advisor-widget h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.seo-advisor-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.seo-advisor-stat-box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.seo-advisor-stat-icon {
+    margin-right: 15px;
+}
+
+.seo-advisor-stat-icon .dashicons {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    color: #2271b1;
+}
+
+.seo-advisor-stat-content h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.seo-advisor-stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.seo-advisor-score {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.seo-advisor-score-poor {
+    background-color: #d63638;
+}
+
+.seo-advisor-score-good {
+    background-color: #2271b1;
+}
+
+.seo-advisor-score-excellent {
+    background-color: #00a32a;
+}
+
+/* Tips Section */
+.seo-advisor-tips-content {
+    margin-top: 15px;
+}
+
+.seo-advisor-tip {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.seo-advisor-tip:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.seo-advisor-tip-icon {
+    margin-right: 15px;
+}
+
+.seo-advisor-tip-icon .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    color: #2271b1;
+}
+
+.seo-advisor-tip-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.seo-advisor-tip-content p {
+    margin: 0;
+    color: #646970;
+}
+
+/* Promo Section */
+.seo-advisor-promo-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #f0f6fc;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.seo-advisor-promo-icon {
+    margin-right: 20px;
+}
+
+.seo-advisor-promo-icon .dashicons {
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+    color: #2271b1;
+}
+
+.seo-advisor-promo-text h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.seo-advisor-promo-text p {
+    margin: 0;
+    color: #646970;
+}
+
+/* Settings Tabs */
+.seo-advisor-tab-content {
+    display: none;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+}
+
+.seo-advisor-tab-content.active {
+    display: block;
+}
+
+.seo-advisor-settings .form-table th {
+    width: 250px;
+}
+
+/* Metabox Styles */
+.seo-advisor-metabox {
+    margin: -6px -12px -12px -12px;
+}
+
+.seo-advisor-tab-nav {
+    display: flex;
+    background-color: #f0f0f1;
+    border-bottom: 1px solid #c3c4c7;
+    position: relative;
+}
+
+.seo-advisor-tab-link {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #646970;
+    font-weight: 500;
+}
+
+.seo-advisor-tab-link.active {
+    background-color: #fff;
+    color: #2271b1;
+    border-bottom: 2px solid #2271b1;
+    margin-bottom: -1px;
+}
+
+.seo-advisor-tab-content {
+    padding: 15px;
+}
+
+.seo-advisor-tab-pane {
+    display: none;
+}
+
+.seo-advisor-tab-pane.active {
+    display: block;
+}
+
+.seo-advisor-field {
+    margin-bottom: 15px;
+}
+
+.seo-advisor-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.seo-advisor-actions {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.seo-advisor-actions .spinner {
+    float: none;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.seo-advisor-last-updated {
+    margin-top: 10px;
+    font-style: italic;
+    color: #646970;
+    font-size: 12px;
+}
+
+.seo-advisor-issues-section {
+    margin-bottom: 20px;
+}
+
+.seo-advisor-issues {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.seo-advisor-issue {
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+}
+
+.seo-advisor-issue-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.seo-advisor-issue-icon {
+    margin-right: 5px;
+}
+
+.seo-advisor-issues-critical .seo-advisor-issue-icon {
+    color: #d63638;
+}
+
+.seo-advisor-issues-warnings .seo-advisor-issue-icon {
+    color: #dba617;
+}
+
+.seo-advisor-issues-good .seo-advisor-issue-icon {
+    color: #00a32a;
+}
+
+.seo-advisor-issue-message {
+    color: #646970;
+    font-size: 13px;
+}
+
+.seo-advisor-no-data {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+.seo-advisor-no-issues {
+    padding: 10px;
+    color: #646970;
+    font-style: italic;
+}
+
+.seo-advisor-score {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.seo-advisor-coming-soon {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #f0f6fc;
+    border-left: 4px solid #72aee6;
+    color: #2c3338;
+}
+
+.seo-advisor-coming-soon h4 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+}
+
+.seo-advisor-coming-soon p {
+    margin: 0;
+    color: #646970;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .seo-advisor-dashboard-widgets {
+        grid-template-columns: 1fr;
+    }
+    
+    .seo-advisor-stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* WooCommerce specific styles */
+.seo-advisor-product-tips {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f6f7f7;
+    border-radius: 3px;
+}
+
+.seo-advisor-product-tips h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Badge for Pro features */
+.awaiting-mod {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 1px 0 -1px 2px;
+    padding: 0 5px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #72aee6;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+    z-index: 26;
+}
